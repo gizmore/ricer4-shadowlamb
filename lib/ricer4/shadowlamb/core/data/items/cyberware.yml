@@ -1,0 +1,4 @@
+Cyberware:
+  WiredReflexesV1: { level:  5, quickness:  5, body: -2, worth: 15000 }
+  WiredReflexesV2: { level: 10, quickness: 10, body: -4, worth: 35000 }
+  WiredReflexesV3: { level: 15, quickness: 15, body: -5, worth: 75000 }

@@ -1,0 +1,10 @@
+en:
+  shadowlamb:
+    
+    carry_status: '%{carries}/%{max_carry}'
+    
+    values:
+
+      carry:
+        long: carry
+        short: ld

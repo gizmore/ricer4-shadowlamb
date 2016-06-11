@@ -1,0 +1,16 @@
+en:
+  shadowlamb:
+    world:
+      peine:
+        das_haus:
+          
+          name: DasHaus
+          info: "Youth center and punk-scene etablisment."
+          
+          garden:
+            name: 'Garden'
+            info: "More parking lot with some shopping carts as a grillplace."
+            
+          entrance:
+            name: 'VorDasHaus'
+            info: "A road with a parking lot."

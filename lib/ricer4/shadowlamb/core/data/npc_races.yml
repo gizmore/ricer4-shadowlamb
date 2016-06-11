@@ -1,0 +1,34 @@
+attributes:
+  base:
+    rat:       { body:  0, bodyhp:  5, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  5, quickness:  0, strength:  0, wisdom:  0 }
+    dog:       { body:  0, bodyhp:  5, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  5, quickness:  0, strength:  0, wisdom:  0 }
+    person:    { body:  0, bodyhp:  5, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  5, quickness:  0, strength:  0, wisdom:  0 }
+  bonus:
+    rat:       { body:  0, bodyhp:  0, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  0, quickness:  0, strength:  0, wisdom:  0 }
+    dog:       { body:  0, bodyhp:  0, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  0, quickness:  0, strength:  0, wisdom:  0 }
+    person:    { body:  0, bodyhp:  0, charisma:  0, intelligence:  0, luck:  0, magic:  0, magicmp:  0, quickness:  0, strength:  0, wisdom:  0 }
+    
+combat:
+  rat:         { attack:  0, defense:  0, max_hp:  1 }
+  dog:         { attack:  0, defense:  0, max_hp: 10 }
+  person:      { attack:  0, defense:  0, max_hp: 20 }
+
+skills:
+  base:
+    rat:       {}
+    dog:       {}
+    person:    {}
+  bonus:
+    rat:       {}
+    dog:       {}
+    person:    {}
+
+spells:
+  base:
+    rat:       {}
+    dog:       {}
+    person:    {}
+  bonus:
+    rat:       {}
+    dog:       {}
+    person:    {}

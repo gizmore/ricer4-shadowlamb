@@ -1,0 +1,14 @@
+Usable:
+  Pen:      { weight: 30 }
+
+Drink:
+  SmallBeer: { weight: 360, thirst: 1700, drunk: 1000, worth: 3 }
+  LargeBeer: { weight: 550, thirst: 2500, drunk: 1400, worth: 4 }
+
+Ingredient:
+  RatFur:   { weight: 12, worth: 1 }
+  RatHead:  { weight: 18, worth: 5 }
+
+HealthItem:
+  Plaster:  { weight: 20,   worth: 8,    hp: 1 }
+  FirstAid: { weight: 400,  worth: 200,  hp: 5 }

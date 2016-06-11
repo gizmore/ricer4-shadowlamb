@@ -1,0 +1,15 @@
+shadowlamb:
+  world:
+    peine:
+      fountain:
+        name: Fountain
+        info: bl4
+      iceman:
+        name: Iceman
+        info: bla2
+      market_crier:
+        name: MarketCrier
+        info: bla2
+      marketplace:
+        name: Marketplace
+        info: bla

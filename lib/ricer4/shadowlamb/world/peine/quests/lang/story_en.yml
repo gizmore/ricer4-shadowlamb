@@ -1,0 +1,12 @@
+en:
+  shadowlamb:
+    quest:
+      peine:
+        story1:
+          name: "Storyline I"
+          info: "You need to travel to Brunswick or Hannover to find out more."
+          accept: "Find out what happened!"
+          story1: "You wake up after some long days of hacking, abusing amphetamines and alcohol."
+          story2: "What happened?! - You remember you got hacked, pulled the cables... and panicked."
+          story3: "Panic! - Was there someone here? - You don´t remember... The past days... you cannot distingush what was real and what was your tripping."
+          story4: "You look around the room and prepare to leave... still drugged!"

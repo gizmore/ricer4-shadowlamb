@@ -1,0 +1,18 @@
+en:
+  shadowlamb:
+    msg_encounter: "You \x02encounter\x02: %{enemies}."
+    action:
+      beam_into: "beaming inside %{location}"
+      beam_to: "beaming outside %{location}"
+      created: "just being created"
+      explore: "exploring %{area}"
+      fighting: "fighting against %{enemies}"
+      goto: "going to %{location}"
+      inside: "inside %{location}"
+      knocking: "in front of %{location}"
+      move: "moving to %{coordinates}"
+      outside: "somewhere in %{area} at %{latlon}"
+      parking: "outside of %{location}"
+      sleeping: "sleeping inside %{location}"
+      spawning: "respawning"
+      travel: "travelling to %{area}"

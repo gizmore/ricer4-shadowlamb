@@ -1,0 +1,39 @@
+en:
+  shadowlamb:
+    values:
+        
+      attack:
+        long: attack
+        short: atk
+      
+      defense:
+        long: defense
+        short: def
+        
+      farm:
+        long: farm
+        short: farm
+        
+      hp:
+        long: hp
+        short: hp
+        
+      level:
+        long: level
+        short: lvl
+        
+      marm:
+        long: marm
+        short: marm
+        
+      max_hp:
+        long: max_hp
+        short: mhp
+        
+      max_mp:
+        long: max_mp
+        short: mmp
+
+      mp:
+        long: mp
+        short: mp

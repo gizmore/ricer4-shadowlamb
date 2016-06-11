@@ -1,0 +1,20 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+
+        gmi:
+          trigger: "sr.gmi"
+          description: 'Create an item and give it to a player.'
+          msg_gmi_rply: "You gave %{item} to %{user}."
+          msg_gmi_from: "You received %{item} from %{gm}."
+          
+        gml:
+          trigger: "sr.gml"
+          description: 'Beam a party for debugging purposes.'
+          msg_beamed_inside: "You have beamed %{members} inside %{location}."
+          msg_beamed_outside: "You have beamed %{members} outside of %{location}."
+          
+        gmt:
+          trigger: "sr.gmt"
+          description: 'Spawn mobs and make them attack a party.'

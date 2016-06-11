@@ -1,0 +1,23 @@
+en:
+  ricer:
+    plugins:
+      shadowlamb:
+        
+        exit:
+          trigger: ex
+          description: 'Leave the location at it´s action.'
+
+        sell:
+          trigger: se
+          description: 'Sell your items with this command.'
+
+        sleep:
+          trigger: sl
+          description: 'Makes your party rest and recover.'
+          err_not_sleepy: 'Your party is not sleepy.'
+          msg_sleeping: 'Your party is going to sleep.'
+
+        wakeup:
+          trigger: wu
+          description: 'Forces the party to wakeup when sleeping.'
+          msg_woke_up: 'Your party woke up.'

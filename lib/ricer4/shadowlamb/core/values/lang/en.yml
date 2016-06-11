@@ -1,0 +1,125 @@
+en:
+  shadowlamb:
+    values:
+
+      body:
+        long: body
+        short: bo
+        
+      bodyhp:
+        long: bodyhp
+        short: bhp
+        
+      luck:
+        long: luck
+        short: lu
+        
+      magic:
+        long: magic
+        short: ma
+
+      quickness:
+        long: quickness
+        short: qu
+
+      strength:
+        long: strength
+        short: st
+        
+        
+      carry:
+        long: carry
+        short: we
+      
+      max_carry:
+        long: max_carry
+        short: mxwe
+        
+      weight:
+        long: weight
+        short: w
+        
+      
+      attack:
+        long: attack
+        short: atk
+      
+      defense:
+        long: defense
+        short: def
+        
+      farm:
+        long: farm
+        short: farm
+        
+      hp:
+        long: hp
+        short: hp
+        
+      level:
+        long: level
+        short: lvl
+        
+      marm:
+        long: marm
+        short: marm
+        
+      max_hp:
+        long: max_hp
+        short: mhp
+        
+      max_mp:
+        long: max_mp
+        short: mmp
+
+      mp:
+        long: mp
+        short: mp
+        
+      
+      anger:
+        long: anger
+        short: ang
+        
+      fear:
+        long: fear
+        short: fea
+        
+      hunger:
+        long: hungry
+        short: hun
+        
+      thirst:
+        long: thirsty
+        short: thi
+        
+      tired:
+        long: tired
+        short: tir
+        
+
+      tuneup:
+        long: tuneup
+        short: tup
+        
+
+      melee:
+        long: melee
+        short: mel
+        
+      swordsman:
+        long: swordsman
+        short: swd
+        
+      tactic:
+        long: tactics
+        short: tac
+        
+
+      nuyen:
+        long: nuyen
+        short: ny
+        
+      worth:
+        long: worth
+        short: wrt

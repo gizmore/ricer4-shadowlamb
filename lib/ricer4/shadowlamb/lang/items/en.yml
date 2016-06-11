@@ -1,0 +1,6 @@
+en:
+  shadowlamb:
+    items:
+      Club:
+        label: Keule
+        description: A wooden club. Can cause headache.

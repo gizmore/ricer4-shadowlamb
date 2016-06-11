@@ -1,0 +1,26 @@
+Peine/Razor:
+  ai: ['real_npc', 'seller', 'explorer', 'all_places']
+  race: 'human'
+  gender: male
+#  professions: 
+#  base: { level: 1, strength: [0, 1], quickness: [0, 1], nuyen: [5, 10] }
+#  bonus: { attack: [1,3] }
+  equipment: 'BaseballBat'
+  inventory: '2xLargeBeer,Bandage'
+  cyberware: []
+  base_loot: ['20%SmallBeer', '50%LargeBeer', '10%3xLargeBeer']
+
+Peine/SmallOrk:
+  ai: ['combat_mob']
+  race: 'halfork'
+  gender: 'male'
+  professions: 'adventurer'
+  inventory: '10%2xLargeBeer'
+  equipment: ['Club', 'Club', '50%Tshirt', '40%Clothes']
+
+Peine/Beggar:
+  name: Siggi
+  ai: ['real_npc']
+  race: human
+  gender: male
+  

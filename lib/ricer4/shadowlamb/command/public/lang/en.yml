@@ -1,0 +1,25 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+        
+        perf:
+          trigger: 'sr.perf'
+          description: "Show shadowlamb performance statistics."
+
+        start:
+          trigger: 'sr.start'
+          description: 'Create a new player.'
+          err_failed: 'An error occured and your character could not be created.'
+          msg_created: "Your player has been created. Welcome to Shadowlamb5!"
+          msg_new_player: "A new player has spawned in the Shadowverse: Welcome %{player} the %{gender} %{race}."
+
+
+        stats:
+          trigger: "sr.stats"
+          description: 'Show memory statistics of the shadowverse.'
+
+        world_cmd:
+          trigger: "sr.world"
+          description: 'Show statistics of the shadowverse size.'
+          msg_world: "In Shadowlamb5 there are: %{values} different values, %{races} races and %{genders} genders, %{spells} spells, %{items} base items, %{cities} cities, %{dungeons} dungeons and %{locations} places with %{obstacles} obstacles. There are %{npcs} npcs/mobs and %{quests} quests with a total code and data filesize of %{codesize}."

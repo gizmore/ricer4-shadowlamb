@@ -1,0 +1,55 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+        
+        attack:
+          trigger: 'sr.#'
+          description: "Use your weapon in combat. This command will lock your target so you do not need to retype."
+        
+        block:
+          trigger: 'sr.*'
+          description: "Just idle during combat. DEPRECATED."
+          
+        cast:
+          trigger: 'sr.ca'
+          description: 'Cast a spell on friend or foe. Costs time in combat.'
+          
+        drop:
+          trigger: 'sr.dr'
+          descriptions: 'Get rid of items from your inventory and the database.'
+          msg_about_to_drop: 'You are going to irreversibly drop %{items}.'
+          msg_dropped: 'You got rid of %{items}.'
+          
+        equip:
+          trigger: 'sr.eq'
+          description: 'Equip yourself with an inventory item. This costs time in combat.'
+          err_no_equipment: "Your \x02%{item}\x02 cannot be used as equipment."
+          msg_changed_self: "You put your %{old_item} into your inventory and now use your \x02%{new_item}\x02 as \x02%{slot}\x02."
+          msg_changed_party: "%{player} puts their %{old_item} into the inventory and now uses their \x02%{new_item}\x02 as \x02%{slot}\x02."
+          msg_equipped_self: "You now use your \x02%{new_item}\x02 as \x02%{slot}\x02."
+          msg_equipped_party: "%{player} now uses their \x02%{new_item}\x02 as \x02%{slot}\x02."
+
+        fight_idle:
+          trigger: 'sr.fi'
+          description: 'Begin to fight another party..'
+          
+        fight_talking:
+          trigger: 'sr.fi'
+          description: 'Begin to fight another party..'
+          
+        reset:
+          trigger: 'sr.reset'
+          description: 'Completely delete your character data and be able to start over.'
+          err_reset_first: "You have to %{reset} your character first to start a complete new game."
+          msg_reset: "Your player has been reset and wiped from the db completely. Don´t whine."
+        
+        unequip:
+          trigger: 'sr.uq'
+          description: 'Unequip an item and put it back in your inventory. This costs time in combat.'
+          msg_unequipped_self: "You put your \x02%{old_item}\x02 into your inventory."
+          msg_unequipped_party: "%{player} puts their \x02%{old_item}\x02 into the inventory."
+
+        use:
+          trigger: 'sr.u'
+          description: 'Use an item. Possible targets can be friends, foes and obstacles.'

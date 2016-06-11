@@ -1,0 +1,17 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+
+        say:
+          trigger: 'sr.say'
+          
+        shout:
+          trigger: 'sr.shout'
+    
+        tell:
+          trigger: 'sr.tell'
+          
+          
+        
+        

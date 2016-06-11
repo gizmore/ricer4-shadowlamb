@@ -1,0 +1,23 @@
+en:
+  shadowlamb:
+    values:
+
+      karma:
+        long: karma
+        short: ka
+        
+      nuyen:
+        long: nuyen
+        short: ny
+        
+      weight:
+        long: weight
+        short: we
+        
+      worth:
+        long: worth
+        short: wt
+        
+      xp:
+        long: XP
+        short: XP

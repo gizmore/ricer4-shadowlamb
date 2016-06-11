@@ -1,0 +1,27 @@
+en:
+  shadowlamb:
+    values:
+
+      body:
+        long: body
+        short: bo
+        
+      bodyhp:
+        long: bodyhp
+        short: bhp
+        
+      luck:
+        long: luck
+        short: lu
+        
+      magic:
+        long: magic
+        short: ma
+
+      quickness:
+        long: quickness
+        short: qu
+
+      strength:
+        long: strength
+        short: st

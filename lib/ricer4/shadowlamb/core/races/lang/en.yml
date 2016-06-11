@@ -1,0 +1,35 @@
+en:
+  shadowlamb:
+    race_short:
+      fairy: FA
+      elf: EL
+      halfelf: HE
+      vampire: V
+      darkelf: DE
+      woodelf: WE
+      human: HU
+      gnome: GN
+      dwarf: DW
+      halforc: HO
+      halftroll: HT
+      orc: OR
+      troll: TR
+      gremlin: GR
+      person: PE
+      dog: DO
+    race_long:
+      fairy: fairy
+      elf: elf
+      halfelf: halfelf
+      vampire: vampire
+      darkelf: darkelf
+      woodelf: woodelf
+      human: human
+      gnome: gnome
+      dwarf: dwarf
+      halforc: halforc
+      halftroll: halftroll
+      orc: orc
+      troll: troll
+      gremlin: gremlin
+      person: person

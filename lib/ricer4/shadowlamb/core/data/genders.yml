@@ -1,0 +1,28 @@
+attributes:
+  base:
+    male:   { }
+    female: { }
+  bonus:
+    male:   { strength: 2 }
+    female: { intelligence: 3, charisma: 5 }
+    
+combat:
+  male:   { attack: 3 }
+  female: { attack: 1 }
+  
+
+skills:
+  base:
+    male:   { }
+    female: { }
+  bonus:
+    male:   { }
+    female: { }
+
+spells:
+  base:
+    male:   { }
+    female: { }
+  bonus:
+    male:   { }
+    female: { }

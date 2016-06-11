@@ -1,0 +1,23 @@
+en:
+  ricer4:
+    params:
+        
+      sl_coordinate:
+        error: 'Invalid lat,lon format.'
+        label: 'Lat,Lon'
+        
+      sl_direction:
+        error: 'Unknown compass direction.'
+        label: 'Direction'
+ 
+        sl_race:
+          error: 'Unknown race.'
+        label: 'Race'
+ 
+        sl_gender:
+          error: 'Unknown gender.'
+        label: 'Gender'
+ 
+        sl_player:
+          error: 'Unknown player.'
+          label: 'Player'

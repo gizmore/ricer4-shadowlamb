@@ -1,0 +1,38 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+        
+        down:
+          trigger: "sr.down"
+          description: "Leave the current floor and go down."
+        
+        enter:
+          trigger: 'sr.en'
+          description: "Enter a location after you were knocking at it." 
+          
+        exit:
+          trigger: 'sr.exit'
+          description: "Leave a location and get outside to it´s area."
+
+        explore:
+          trigger: 'sr.exp'
+          description: 'Explore your current area and try to find new known places.'
+
+        go:
+          trigger: 'sr.go'
+          description: 'Move to exact coordinates or walk a bit in a direction.'
+          
+        goto:
+          trigger: 'sr.g'
+          description: 'Move to an already known location.'
+        
+        stop:
+          trigger: 'sr.st'
+          description: 'Interrupt party movement and stop.'
+          msg_stopped: 'Your party stopped. what now?!'
+
+        up:
+          trigger: "sr.up"
+          description: "Leave the current floor and go up."
+        

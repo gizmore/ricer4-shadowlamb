@@ -1,0 +1,16 @@
+en:
+  shadowlamb:
+    quest:
+      quest_info: "There is no further information."
+      quest_accept: "You accept the quest."
+      msg_quest_accepted: "You got a new quest. '%{quest}': %{info} - %{accept}"
+      list_item: "%{number}-%{quest}"
+      show_item: "%{number}-%{quest} - %{info}"
+      
+      
+  ricer4:
+    plugins:
+      shadowlamb:
+        shadowlamb:
+          trigger: 'sr'
+          description: "Shadowlamb5 - The first really interactive \x02irc\x02 rpg/mmo/mud."

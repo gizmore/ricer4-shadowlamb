@@ -1,0 +1,5 @@
+base:
+  adventurer:   { attack: 20 }
+
+bonus:
+  adventurer:   { attack: 10, searching: 20 }

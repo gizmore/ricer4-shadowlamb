@@ -1,0 +1,33 @@
+en:
+  shadowlamb:
+    world:
+      peine:
+      
+        name: Peine
+        info: Home of gizmore
+        
+        flat:
+          name: 'Flat'
+          info: 'A bigger house with 4 etages, including partere.'
+          
+          partere:
+            name: "Partere"
+            info: "This is a flat of your downstairs neighbours. A teachers family, whose child is a P.H.D."
+          
+          etage1:
+            name: "Etage1"
+            info: "This is the flat of your downstairs neighbours."
+          
+          etage2:
+            name: "Home"
+            info: "This seems to be your flat."
+            
+          etage3:
+            name: "Etage3"
+            info: "This is the flat of your upstairs neighbour. A single girl of your age... you remember her face somehow."
+          
+        peter:
+          name: 'Peter'
+        
+        kalle:
+          name: 'Kalle'

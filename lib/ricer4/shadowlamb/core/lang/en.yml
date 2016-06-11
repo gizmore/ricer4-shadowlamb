@@ -1,0 +1,65 @@
+en:
+  shadowlamb:
+    
+    direction:
+      n: north
+      s: south
+      e: east
+      w: west
+      ne: north-east
+      se: south-east
+      sw: south-west
+      nw: north-west
+      nne: north-north-east
+      nee: north-east-east
+      see: south-east-east
+      sse: south-south-east
+      ssw: south-south-west
+      sww: south-west-west
+      nww: north-west-west
+      nnw: north-north-west
+
+    rune_appendix: '_with_'
+
+    busytext: "%{duration} seconds busy."
+
+    hp_status: "%{hp}/%{max_hp}HP"
+    mp_status: "%{mp}/%{max_mp}MP"
+
+    karmachange: "You know have %{karma_now}(+%{karma_gain}) karma."
+    levelchange: "You have reached level %{level_npw}(%{level_gain})."
+    itemslooted: "You find %{items}."
+
+    err_item_search_too_short: "Your item search term has to be at least %{letters} characters in length. User * for whitespace."
+    err_item_not_found: "No item could be found for your parameters."
+    err_item_ambigious: "The item selector is ambigious, as you need to pick a single item."
+    err_requirements: "You do not meet the requirements of your \x02%{item}\x02: %{requirements}."
+
+    msg_respawned: "You respawn inside %{location}."
+    msg_entered_area: "You have entered %{area}."
+    msg_entered_location: "You have entered %{location}."
+    msg_reached_location: "You have reached %{location}."
+
+    msg_loot: "The fight is over. You loot %{nuyen}¥ and gain %{xp} XP."
+
+    err_not_started: 'You need to create a character first. Use the %{start} command to create one. Check %{help} <race> to see differences.'
+    err_wrong_action: 'This command does not work when you are %{current_action}.'
+    err_cannot_walk_that_far: 'You cannot walk that far.'
+    
+    msg_continue_action: "You continue %{action}."
+    
+    msg_attack_missed_self: "\x02You\x02(%{attacker_attack}/%{attacker_percent}) attack %{defender}(%{defender_attack}/%{defender_percent}) with your %{weapon}(%{attack} attack) but miss them(%{hits} hits)."
+    msg_attack_missed_party: "%{attacker}(%{attacker_attack}/%{attacker_percent}) attacks %{defender}(%{defender_attack}/%{defender_percent}) with their %{weapon}(%{attack} attack) but missed them(%{hits} hits)."
+
+    msg_attack_harmless_self: "\x02You\x02(%{attacker_attack}/%{attacker_percent}) attack %{defender}(%{defender_attack}/%{defender_percent}) with your %{weapon}(%{attack} attack) but cause no damage(%{hits} hits)."
+    msg_attack_harmless_party: "%{attacker}(%{attacker_attack}/%{attacker_percent}) attacked %{defender}(%{defender_attack}/%{defender_percent}) with their %{weapon}(%{attack} attack) but caused no damage(%{hits} hits)."
+
+    msg_attack_damage_self: "\x02You\x02(%{attacker_attack}/%{attacker_percent}) attack %{defender}(%{defender_attack}/%{defender_percent}) with your %{weapon}(%{attack} attack) and cause \x02%{damage} damage\x02(%{hits} hits), %{hp_status} left."
+    msg_attack_damage_party: "%{attacker}(%{attacker_attack}/%{attacker_percent}) attacked %{defender}(%{defender_attack}/%{defender_percent}) with their %{weapon}(%{attack} attack) and caused \x02%{damage} damage\x02(%{hits} hits), %{hp_status} left."
+
+    msg_attack_killed_self: "\x02You\x02(%{attacker_attack}/%{attacker_percent}) \x02kill\x02 %{defender}(%{defender_attack}/%{defender_percent}) with your %{weapon}(%{attack} attack). \x02%{damage} damage\x02(%{hits} hits)."
+    msg_attack_killed_party: "%{attacker}(%{attacker_attack}/%{attacker_percent}) \x02killed\x02 %{defender}(%{defender_attack}/%{defender_percent}) with their %{weapon}(%{attack} attack). \x02%{damage} damage\x02(%{hits} hits)."
+
+    msg_learned_word: "You noted the word %{word} down in your {known_words}."
+    msg_learned_area: "You discovered a new area: %{area} is %{squarekm}km² wide. %{info}"
+    msg_learned_location: "You discovered a new location: %{location}. %{info}"

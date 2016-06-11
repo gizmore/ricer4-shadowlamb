@@ -1,0 +1,17 @@
+en:
+  shadowlamb:
+    err_cannot_use_on_friends: "You cannot use this item on friendly players."
+    err_cannot_use_on_enemies: "You cannot use this item on enemy players."
+    err_cannot_use_on_items: "You cannot use this item on other items."
+    err_cannot_use_on_locations: "You cannot use this item on locations."
+    err_cannot_use_on_obstacles: "You cannot use this item on obstacles."
+
+    equipment:
+      slot_long:
+        armor: armor
+        weapon: weapon
+        helmet: helmet
+      slot_short:
+        armor: ar
+        weapon: we
+        helmet: he

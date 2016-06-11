@@ -1,0 +1,13 @@
+en:
+  shadowlamb:
+    professions:
+      
+      adventurer:
+        short: 'adv'
+        long: 'adventurer'
+        info: 'Adventurers are eager to explore their world.'
+        
+      mob_king:
+        short: 'boss'
+        long: 'MobKing'
+        info: 'Mob Leader :O'

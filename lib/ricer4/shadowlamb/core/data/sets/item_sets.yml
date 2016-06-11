@@ -1,0 +1,3 @@
+TinfoilSet:
+  bonus: { attack: 10 }
+  items: 'TinfoilCap,TinfoilBelt,TinfoilHands'

@@ -1,0 +1,52 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+
+        attributes:
+          trigger: 'sr.a'
+          description: 'Show your attributes.'
+          msg_attributes: 'Attributes: %{out}.'
+          
+        effects:
+          trigger: 'sr.e'
+          
+        equipment:
+          trigger: 'sr.q'
+          msg_equipment: 'Equipment: %{equipment}.'
+          
+        examine:
+          trigger: 'sr.ex'
+          
+        feelings:
+          trigger: 'sr.f'
+          description: 'Show your feelings.'
+          msg_attributes: 'Feelings: %{out}.'
+        
+        inventory:
+          trigger: 'sr.i'
+          description: 'Shows your inventory.'
+          
+        known_places:
+          trigger: "sr.kp"
+          description: "List known places in your area."
+          
+        look:
+          trigger: "sr.look"
+          description: "Look at the scene around yourself."
+          
+        lvlup:
+          trigger: 'sr.l'
+          description: "Show your levelup info, and how much an upgrade would cost."
+          
+        party:
+          trigger: 'sr.p'
+          description: Show your party´s location and status.
+          msg_party_lead: You are leading %{members} and you %{action}.
+          msg_party_alone: You are %{action}.
+          msg_party_follow: You are with %{members} and you %{action}.
+          
+        status:
+          trigger: 'sr.s'
+          description: "Show your players combat status."
+          msg_status: "%{player} is a  %{gender} %{race} %{title} level %{level}(%{adjustlevel}) with %{nuyen}¥, carries %{carrystatus}. HP: %{hpstatus}, MP: %{mpstatus}. %{xp} XP and %{karma} Karma. %{combat_values}."

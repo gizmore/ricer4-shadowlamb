@@ -1,0 +1,6 @@
+en:
+  shadowlamb:
+    sets:
+      TinfoilSet:
+        name: 'TinfoilSet'
+        info: 'Being a resistor is not as fun as being a capacitor.'

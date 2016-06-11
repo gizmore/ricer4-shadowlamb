@@ -1,0 +1,22 @@
+male: ['Peter', 'Paul']
+female: ['Mary']
+human:
+  male: ['Jonathan']
+  female: ['Bianca']
+fairy:
+elf:
+halfelf:
+vampire:
+darkelf:
+woodelf:
+human:
+gnome:
+dwarf:
+halforc:
+halftroll:
+orc:
+troll:
+gremlin:
+person:
+  male: 'Jochen'
+  female: 'Inge'

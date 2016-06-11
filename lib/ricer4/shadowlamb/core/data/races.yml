@@ -1,0 +1,143 @@
+attributes:
+  base:
+    fairy:     { body:  2, bodyhp:  7, charisma:  2, intelligence:  1, luck:  0, magic:  0, magicmp: 10, quickness:  1, strength:  1, wisdom:  0 }
+    elf:       { body:  2, bodyhp:  8, charisma:  2, intelligence:  1, luck:  0, magic:  0, magicmp:  9, quickness:  1, strength:  1, wisdom:  0 }
+    halfelf:   { body:  2, bodyhp:  9, charisma:  2, intelligence:  1, luck:  0, magic:  0, magicmp:  7, quickness:  1, strength:  1, wisdom:  0 }
+    vampire:   { body:  2, bodyhp:  8, charisma:  2, intelligence:  1, luck:  0, magic:  0, magicmp:  9, quickness:  1, strength:  1, wisdom:  0 }
+    darkelf:   { body:  2, bodyhp:  8, charisma:  2, intelligence:  1, luck:  0, magic:  0, magicmp:  8, quickness:  1, strength:  1, wisdom:  0 }
+    woodelf:   { body:  2, bodyhp:  9, charisma:  2, intelligence:  1, luck:  0, magic: -1, magicmp:  7, quickness:  1, strength:  1, wisdom:  0 }
+    human:     { body:  2, bodyhp: 10, charisma:  2, intelligence:  1, luck:  0, magic: -1, magicmp:  6, quickness:  1, strength:  1, wisdom:  0 }
+    gnome:     { body:  2, bodyhp: 10, charisma:  2, intelligence:  1, luck:  0, magic: -1, magicmp:  7, quickness:  1, strength:  1, wisdom:  0 }
+    dwarf:     { body:  2, bodyhp: 11, charisma:  2, intelligence:  1, luck:  0, magic: -1, magicmp:  5, quickness:  1, strength:  1, wisdom:  0 }
+    halforc:   { body:  2, bodyhp: 11, charisma:  2, intelligence:  1, luck:  0, magic: -1, magicmp:  5, quickness:  1, strength:  1, wisdom:  0 }
+    halftroll: { body:  2, bodyhp: 11, charisma:  2, intelligence:  1, luck:  0, magic: -2, magicmp:  5, quickness:  1, strength:  1, wisdom:  0 }
+    orc:       { body:  2, bodyhp: 12, charisma:  2, intelligence:  1, luck:  0, magic: -2, magicmp:  4, quickness:  1, strength:  1, wisdom:  0 }
+    troll:     { body:  2, bodyhp: 12, charisma:  2, intelligence:  1, luck:  0, magic: -3, magicmp:  4, quickness:  1, strength:  1, wisdom:  0 }
+    gremlin:   { body:  2, bodyhp: 10, charisma:  2, intelligence:  1, luck:  0, magic: -4, magicmp:  4, quickness:  1, strength:  1, wisdom:  0 }
+  bonus:
+    fairy:     { body:  2, bodyhp:  0, charisma: 13, intelligence: 14, luck:  0, magic: 10, magicmp:  0, quickness:  8, strength:  4, wisdom: 15 }
+    elf:       { body:  4, bodyhp:  0, charisma: 12, intelligence: 13, luck:  0, magic:  9, magicmp:  0, quickness: 12, strength:  7, wisdom: 14 }
+    halfelf:   { body:  6, bodyhp:  0, charisma: 11, intelligence: 10, luck:  0, magic:  8, magicmp:  0, quickness: 12, strength:  9, wisdom: 12 }
+    vampire:   { body:  6, bodyhp:  0, charisma: 10, intelligence: 12, luck:  0, magic:  7, magicmp:  0, quickness: 14, strength:  8, wisdom: 13 }
+    darkelf:   { body:  5, bodyhp:  0, charisma:  9, intelligence: 14, luck:  0, magic:  6, magicmp:  0, quickness: 12, strength:  6, wisdom: 10 }
+    woodelf:   { body:  7, bodyhp:  0, charisma:  8, intelligence: 10, luck:  0, magic:  5, magicmp:  0, quickness: 12, strength:  8, wisdom: 12 }
+    human:     { body:  8, bodyhp:  0, charisma:  7, intelligence:  9, luck:  0, magic:  4, magicmp:  0, quickness: 10, strength: 10, wisdom: 10 }
+    gnome:     { body:  7, bodyhp:  0, charisma:  6, intelligence: 10, luck:  0, magic:  3, magicmp:  0, quickness:  9, strength:  8, wisdom: 11 }
+    dwarf:     { body: 10, bodyhp:  0, charisma:  5, intelligence:  8, luck:  0, magic:  2, magicmp:  0, quickness:  7, strength: 11, wisdom: 11 }
+    halforc:   { body: 12, bodyhp:  0, charisma:  4, intelligence:  6, luck:  0, magic:  1, magicmp:  0, quickness:  8, strength: 11, wisdom:  7 }
+    halftroll: { body: 14, bodyhp:  0, charisma:  3, intelligence:  4, luck:  0, magic:  0, magicmp:  0, quickness:  7, strength: 13, wisdom:  6 }
+    orc:       { body: 16, bodyhp:  0, charisma:  2, intelligence:  3, luck:  0, magic: -1, magicmp:  0, quickness:  7, strength: 12, wisdom:  5 }
+    troll:     { body: 20, bodyhp:  0, charisma:  1, intelligence:  2, luck:  0, magic: -2, magicmp:  0, quickness:  6, strength: 15, wisdom:  4 }
+    gremlin:   { body: 12, bodyhp:  0, charisma:  0, intelligence:  4, luck:  0, magic: -3, magicmp:  0, quickness: 12, strength:  6, wisdom:  4 }
+    
+combat:
+  fairy:     { attack:  8, defense:  6, max_hp: 0 }
+  elf:       { attack:  9, defense:  7, max_hp: 0 }
+  halfelf:   { attack:  9, defense:  8, max_hp: 0 }
+  vampire:   { attack: 11, defense:  7, max_hp: 0 }
+  darkelf:   { attack:  9, defense:  7, max_hp: 0 }
+  woodelf:   { attack:  8, defense:  9, max_hp: 0 }
+  human:     { attack: 10, defense: 10, max_hp: 0 }
+  gnome:     { attack:  8, defense:  9, max_hp: 0 }
+  dwarf:     { attack: 11, defense: 10, max_hp: 0 }
+  halforc:   { attack: 12, defense: 11, max_hp: 0 }
+  halftroll: { attack: 14, defense: 10, max_hp: 0 }
+  orc:       { attack: 16, defense: 11, max_hp: 0 }
+  troll:     { attack: 18, defense: 10, max_hp: 0 }
+  gremlin:   { attack: 15, defense:  8, max_hp: 0 }
+
+equipment:
+  fairy:     ["Clothes"]
+  elf:       ["Clothes"]
+  halfelf:   ["Clothes"]
+  vampire:   ["Clothes"]
+  darkelf:   ["Clothes"]
+  woodelf:   ["Clothes"]
+  human:     ["Clothes", "Club"]
+  gnome:     ["Clothes"]
+  dwarf:     ["Clothes"]
+  halforc:   ["Clothes"]
+  halftroll: ["Clothes"]
+  orc:       ["Clothes", "Club"]
+  troll:     ["Clothes", "Club"]
+  gremlin:   ["Clothes"]
+
+inventory:
+  fairy:     ["Pen"]
+  elf:       ["Pen"]
+  halfelf:   ["Pen"]
+  vampire:   ["Pen"]
+  darkelf:   ["Pen"]
+  woodelf:   ["Pen"]
+  human:     ["Pen"]
+  gnome:     ["Pen"]
+  dwarf:     ["Pen"]
+  halforc:   ["Pen"]
+  halftroll: ["Pen"]
+  orc:       ["Pen"]
+  troll:     ["Pen"]
+  gremlin:   ["Pen"]
+
+skills:
+  base:
+    fairy:     { swimming: -1 }
+    elf:       {}
+    halfelf:   {}
+    vampire:   { swimming: -1 }
+    darkelf:   {}
+    woodelf:   { bow: 0 }
+    human:     {}
+    gnome:     {}
+    dwarf:     {}
+    halforc:   {}
+    halftroll: {}
+    orc:       { swimming: -1 }
+    troll:     { swimming: -1 }
+    gremlin:   { swimming: -2 }
+  bonus:
+    fairy:     {}
+    elf:       { bow: 2 }
+    halfelf:   { bow: 1 }
+    vampire:   {}
+    darkelf:   {}
+    woodelf:   { bow: 3 }
+    human:     {}
+    gnome:     {}
+    dwarf:     {}
+    halforc:   {}
+    halftroll: {}
+    orc:       {}
+    troll:     {}
+    gremlin:   {}
+
+spells:
+  base:
+    fairy:     { calm: 0 }
+    elf:       {}
+    halfelf:   {}
+    vampire:   {}
+    darkelf:   {}
+    woodelf:   {}
+    human:     {}
+    gnome:     {}
+    dwarf:     {}
+    halforc:   {}
+    halftroll: {}
+    orc:       {}
+    troll:     {}
+    gremlin:   {}
+  bonus:
+    fairy:     {}
+    elf:       {}
+    halfelf:   {}
+    vampire:   {}
+    darkelf:   {}
+    woodelf:   {}
+    human:     {}
+    gnome:     {}
+    dwarf:     {}
+    halforc:   {}
+    halftroll: {}
+    orc:       {}
+    troll:     {}
+    gremlin:   {}

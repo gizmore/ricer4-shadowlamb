@@ -1,0 +1,6 @@
+Peine/Beggar:
+  name: Siggi
+  ai: ['real_npc']
+  race: human
+  gender: male
+  

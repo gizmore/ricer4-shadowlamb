@@ -1,0 +1,7 @@
+en:
+  ricer4:
+    plugins:
+      shadowlamb:
+        
+        mount:
+          trigger: 'sr.mo'

@@ -1,0 +1,32 @@
+### Armor ###
+Armor:
+  Tshirt:  { level: 0, weight: [600,  700], defense: 1, marm: [1,1], farm: [0,1], worth: 18 }
+  Clothes: { level: 1, weight: [1100,1400], defense: 2, marm: [1,2], farm: [1,1], worth: 59 }
+
+### Capes ###
+Coat:
+  SexyApron: { level: 0, weight: [200, 300], defense: 1, marm: [0,0], farm: [0,0] }
+  
+### Helmet ###
+Helmet:
+  SportsCap:
+  TinfoilCap:
+
+### Legs ###
+Legs:
+  Leggings: { level: 0, weight: [  250,   350], defense:  1, marm: [ 0, 1], farm: [ 0, 0], worth: 25 }
+  Trousers: { level: 0, weight: [  500,   600], defense:  2, marm: [ 0, 1], farm: [ 0, 1], worth: 35 }
+  Jeans:    { level: 1, weight: [  600,   800], defense:  2, marm: [ 1, 2], farm: [ 0, 1], worth: 49 }
+
+### Weapons
+MeleeWeapon:
+  RatTeeth: { level: 0, weight: 5, attack: 3, worth:  1 }
+  Fists:    { level: 0, weight: 0, attack: 4, worth:  0 }
+
+BluntWeapon:
+  Stick:   { level: 0, weight: [  300,  500],  attack: [  5,  6],  worth: 19 }
+  Club:    { level: 0, weight: [  600,  900],  attack: [  7,  9],  worth: 19 }
+
+StabWeapon:
+  Knife:   { level: 1, weight: [  400,  500],  attack: [ 11, 16],  worth: 34 }
+

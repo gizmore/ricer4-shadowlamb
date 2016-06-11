@@ -1,0 +1,26 @@
+Peine/Rat:
+  name: rat
+  race: rat
+  gender: male
+  base: { level: 0, max_hp: [20, 20] }
+  bonus: { attack: [20, 20], defense: [10, 10], melee: [2, 4] }
+  equipment: 'RatTeeth'
+
+Peine/BigRat:
+  name: Rat
+  race: rat
+  gender: male
+  base: { level: 1, max_hp: [30, 30] }
+  bonus: { attack: [30, 30], defense: [15, 15], melee: [3, 5] }
+  equipment: 'RatTeeth'
+  loot: '10%RatTeeth'
+
+Peine/RatKing:
+  name: RatKing
+  professions: 'mob_king'
+  race: rat
+  gender: male
+  base: { level: 2, max_hp: [200, 200] }
+  bonus: { attack: [40, 40], defense: [20, 20], melee: [5, 8] }
+  equipment: 'RatTeeth'
+  loot: '60%RatTeeth,70%RatHead'
